@@ -55,12 +55,10 @@ AI-driven inventory awareness, meal planning, and automated restocking: applying
 
 ---
 
-### 📊 GitHub Stats
+### 💼 Currently Seeking
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=nopgae&show_icons=true&hide_border=true&count_private=true&title_color=2D3748&icon_color=2B6CB0&text_color=2D3748&bg_color=ffffff" height="160"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nopgae&layout=compact&hide_border=true&title_color=2D3748&text_color=2D3748&bg_color=ffffff" height="160"/>
-</p>
+Open to **Data Scientist / ML Engineer** roles in AI-driven logistics, supply chain, and automation.
+Korea-based · Available immediately · Bilingual (Korean / English)
 
 ---
 
