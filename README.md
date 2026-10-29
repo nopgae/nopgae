@@ -1,69 +1,61 @@
-<h1 align="center">Jongin Choi</h1>
-<p align="center">Data Scientist — AI for Logistics & Automation</p>
+<p align="center">
+  <a href="https://jonginchoi.vercel.app"><img src="banner.svg" width="100%" alt="Jongin Choi"/></a>
+</p>
 
 <p align="center">
-I build end-to-end ML pipelines at the intersection of NLP, computer vision, and supply chain intelligence.
-Currently targeting data science roles in AI-driven logistics and SCM — with a long-term vision of intelligent automation systems for physical operations.
-Bilingual (Korean / English), based in Goyang, Gyeonggi-do.
+  <a href="https://jonginchoi.vercel.app"><img src="https://img.shields.io/badge/Portfolio-jonginchoi.vercel.app-bef264?style=flat-square&labelColor=18181b"/></a>
+  <a href="mailto:jic.jonginchoi@gmail.com"><img src="https://img.shields.io/badge/Email-jic.jonginchoi%40gmail.com-e4e4e7?style=flat-square&labelColor=18181b"/></a>
+  <a href="https://www.linkedin.com/in/jongin-choi"><img src="https://img.shields.io/badge/LinkedIn-jongin--choi-bef264?style=flat-square&logo=linkedin&logoColor=bef264&labelColor=18181b"/></a>
+</p>
+
+<p align="center">
+I build ML pipelines and small tools that turn messy real-world data into decisions.<br/>
+Applied Data Science, Penn State (B.S. 2025) · back in Seoul after 13 years in the US · Korean / English
 </p>
 
 ---
 
-### 🛠 Tech Stack
+### `01` What I do
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/SQL-336791?style=flat&logo=postgresql&logoColor=white"/>
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white"/>
-  <img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=flat&logo=huggingface&logoColor=black"/>
-  <img src="https://img.shields.io/badge/XGBoost-189AB4?style=flat&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0xMiAyQzYuNDggMiAyIDYuNDggMiAxMnM0LjQ4IDEwIDEwIDEwIDEwLTQuNDggMTAtMTBTMTcuNTIgMiAxMiAyem0tMSAxNEg5VjhIMTF2OHptNCAwaC0yVjhIMTZ2OHoiLz48L3N2Zz4=&logoColor=white"/>
-  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white"/>
-  <img src="https://img.shields.io/badge/React_Native-20232A?style=flat&logo=react&logoColor=61DAFB"/>
-  <img src="https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Blender-F5792A?style=flat&logo=blender&logoColor=white"/>
+- **Collect & clean** — scrapers and API pipelines (Reddit / PRAW, Playwright), SQL joins across messy sources
+- **Model & evaluate honestly** — train, compare against simple baselines, and report what actually holds up
+- **Ship** — wrap the result in something people use: an API, a dashboard, a small app, with tests and CI
+
+### `02` Stack
+
+<p>
+  <img src="https://img.shields.io/badge/Python-18181b?style=flat-square&logo=python&logoColor=bef264"/>
+  <img src="https://img.shields.io/badge/TypeScript-18181b?style=flat-square&logo=typescript&logoColor=bef264"/>
+  <img src="https://img.shields.io/badge/SQL-18181b?style=flat-square&logo=sqlite&logoColor=bef264"/>
+  <img src="https://img.shields.io/badge/PyTorch-18181b?style=flat-square&logo=pytorch&logoColor=bef264"/>
+  <img src="https://img.shields.io/badge/Hugging%20Face-18181b?style=flat-square&logo=huggingface&logoColor=bef264"/>
+  <img src="https://img.shields.io/badge/scikit--learn-18181b?style=flat-square&logo=scikitlearn&logoColor=bef264"/>
+  <img src="https://img.shields.io/badge/pandas-18181b?style=flat-square&logo=pandas&logoColor=bef264"/>
+  <img src="https://img.shields.io/badge/Playwright-18181b?style=flat-square&logo=playwright&logoColor=bef264"/>
+  <img src="https://img.shields.io/badge/FastAPI-18181b?style=flat-square&logo=fastapi&logoColor=bef264"/>
+  <img src="https://img.shields.io/badge/Supabase-18181b?style=flat-square&logo=supabase&logoColor=bef264"/>
+  <img src="https://img.shields.io/badge/Docker-18181b?style=flat-square&logo=docker&logoColor=bef264"/>
+  <img src="https://img.shields.io/badge/GitHub%20Actions-18181b?style=flat-square&logo=githubactions&logoColor=bef264"/>
 </p>
 
----
+### `03` Selected work
 
-### 📂 Featured Projects
-
-| Project | Description | Stack |
+| Project | What it is | Stack |
 |---|---|---|
-| [reddit-sentiment-roberta](https://github.com/nopgae/reddit-sentiment-roberta) | E-commerce & logistics sentiment pipeline — 563 real Reddit posts classified with RoBERTa; negative sentiment as a demand-drop leading indicator | Python · PyTorch · HuggingFace · Plotly |
-| [kospi-stock-prediction](https://github.com/nopgae/kospi-stock-prediction) | KOSPI technical analysis + XGBoost direction prediction; 49% accuracy on Samsung stock interpreted through the Efficient Market Hypothesis | Python · XGBoost · yfinance · Plotly |
-| [chicago-crime-weather-analysis](https://github.com/nopgae/chicago-crime-weather-analysis) | SQL-based analysis of 260K incidents; r=0.84 temperature-crime correlation framed as an external demand-signal proxy for operational planning | Python · SQLite · pandas · seaborn |
-| [financial-distress-prediction](https://github.com/nopgae/financial-distress-prediction) | XGBoost + SMOTE classifier for corporate distress (AUC=0.885); distressed-company recall improved from 21% → 79% after balancing | Python · XGBoost · SMOTE · scikit-learn |
-| [spot-robot-kinematics](https://github.com/nopgae/spot-robot-kinematics) | Boston Dynamics Spot forward/inverse kinematics simulation in Blender; IK workspace analysis with warehouse AMR applications | Python · Blender API · mathutils |
+| **[feelreel-mini](https://github.com/nopgae/feelreel-mini)** | Small-scale public recreation of the FeelReel lab pipeline I supported as an RA: Reddit image posts → GoEmotions pseudo-labels → LLaVA 7B extracts the image elements behind each emotion | PyTorch · Hugging Face · PRAW · Ollama |
+| **[reddit-sentiment-roberta](https://github.com/nopgae/reddit-sentiment-roberta)** | End-to-end sentiment pipeline over 563 posts from 7 e-commerce, Korean tech and logistics subreddits — collection, RoBERTa batch inference, aggregation, charts | PyTorch · Hugging Face · Plotly |
+| **[starbucks-parking-finder](https://github.com/nopgae/starbucks-parking-finder)** | Finds Starbucks branches in Korea with parking (free / paid / validation). API with parser unit tests and GitHub Actions CI | TypeScript · Playwright · Actions |
+| **[price-tracker](https://github.com/nopgae/price-tracker)** | Product price tracker, deployed and running — [live](https://price-tracker-theta-umber.vercel.app) | Supabase · JavaScript · Vercel |
+| **[lyrics-overlay](https://github.com/nopgae/lyrics-overlay)** | macOS always-on-top synced lyrics overlay for MP3 and YouTube Music (LRC / LRCLIB) | Swift · macOS |
+| **[chicago-crime-weather-analysis](https://github.com/nopgae/chicago-crime-weather-analysis)** | Joins Chicago crime records with daily weather in SQL to study seasonal and temperature patterns | SQLite · pandas · seaborn |
+
+<sub>More on the portfolio site → <a href="https://jonginchoi.vercel.app">jonginchoi.vercel.app</a></sub>
+
+### `04` Research
+
+**Research Assistant · Penn State Data Science Lab** · Jun 2024 – Mar 2025<br/>
+Data side of FeelReel, a multimodal emotion benchmark of Reddit images and comments (project dataset: 400K+ images, 5M+ comments). Collected and organized Reddit data through the project pipeline and built the MTurk survey page for human evaluation.
 
 ---
 
-### 🔍 Domains of Interest
-
-**AI for Supply Chain & Logistics**
-Demand forecasting, inventory optimization, external signal extraction (sentiment, weather, macro indicators) as leading indicators for supply planning.
-
-**Robotics & Warehouse Automation**
-Autonomous mobile robots (AMR), kinematic simulation, computer vision for warehouse operations, digital twin systems.
-
-**NLP for Operational Intelligence**
-Sentiment analysis on customer reviews and CS tickets as demand signals; text classification pipelines for operational decision support.
-
-**Long-term — Intelligent Home Food OS**
-AI-driven inventory awareness, meal planning, and automated restocking: applying the same demand-sensing and optimization techniques from logistics to the household scale.
-
----
-
-### 💼 Currently Seeking
-
-Open to **Data Scientist / ML Engineer** roles in AI-driven logistics, supply chain, and automation.
-Korea-based · Available immediately · Bilingual (Korean / English)
-
----
-
-### 📬 Contact
-
-<p align="center">
-  jonginchoi77@gmail.com &nbsp;·&nbsp; <a href="https://github.com/nopgae">github.com/nopgae</a>
-</p>
+<p align="center"><sub>Seoul · Korean / English · <a href="https://jonginchoi.vercel.app">jonginchoi.vercel.app</a></sub></p>
