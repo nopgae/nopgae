@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://jonginchoi.vercel.app"><img src="banner.svg" width="100%" alt="Jongin Choi"/></a>
+  <a href="https://jonginchoi.vercel.app"><img src="https://raw.githubusercontent.com/nopgae/nopgae/main/banner.svg" width="100%" alt="Jongin Choi"/></a>
 </p>
 
 <p align="center">
